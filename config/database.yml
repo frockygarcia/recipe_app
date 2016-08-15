@@ -1,0 +1,28 @@
+development:
+ adapter: postgresql
+ encoding: utf8
+ reconnect: false
+ database: recipe_app
+ pool: 10
+ username: th3g3ntl3m4n
+ password: th3g3ntl3m4n
+ host: localhost
+
+test: 
+ adapter: postgresql
+ encoding: utf8
+ reconnect: false
+ database: recipe_app
+ pool: 10
+ username: th3g3ntl3m4n
+ password: th3g3ntl3m4n
+ host: localhost
+
+production:
+ adapter: postgresql
+ encoding: utf8
+ reconnect: false
+ database: recipe_app
+ pool: 10
+ username: th3g3ntl3m4n
+ password: th3g3ntl3m4n
